@@ -3,12 +3,15 @@
         flex-direction: column !important;
         margin: 30px 10px !important;
     }
+    .image{
+        display: flex !important;
+        justify-content: center !important;
+    }
     .image img{
         width: 150px;
         height: auto;
-        border-left: 4px solid rgb(27, 120, 196) !important;
-        border-radius: 10px 10px 0px 0px !important;
-        margin-bottom: -6px !important;
+        border: 4px solid rgb(27, 120, 196) !important;
+        border-radius: 10px !important;
     }
     .desc{
         margin: 20px 0px !important;
@@ -18,8 +21,8 @@
     }
     .details{
         flex-direction: column !important;
-        margin: 0px 0px 20px 0px !important;
-        border-radius: 0px 10px 10px 10px !important;
+        margin: 20px 0px !important;
+        border-radius: 10px !important;
     }
     .col2{
         margin-top: -12px !important;
